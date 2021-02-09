@@ -1,0 +1,190 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Title */
+
+#title {
+  position: relative;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.iphone6 {
+  transform: rotate(20deg);
+  padding: 0 10% 0;
+  left: 20%;
+  position: absolute;
+}
+
+/* Features */
+
+.feature-icon {
+  color: #ef8172;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 4% 0;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  padding: 6% 6%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+
+#pricing {
+  padding: 7%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  padding: 4% 0 3% 0;
+}
+
+.cta-header {
+  font-size: 3rem;
+  padding: 3% 25%;
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+.foot-icon {
+  margin: 5% .5% 2%;
+}
+
+.copyright {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
